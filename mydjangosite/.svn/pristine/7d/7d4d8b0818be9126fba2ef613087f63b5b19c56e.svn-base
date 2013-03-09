@@ -1,5 +1,0 @@
-
-<h1>Add Result</h1>
-
-  The sum is : {{ sum }}
-
