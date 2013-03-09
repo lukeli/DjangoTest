@@ -1,0 +1,89 @@
+[
+{
+    "pk": 1, 
+    "model": "polls.poll", 
+    "fields": {
+        "pub_date": "2013-01-05T19:08:13Z", 
+        "question": "Question 1"
+    }
+},
+{
+    "pk": 2, 
+    "model": "polls.poll", 
+    "fields": {
+        "pub_date": "2013-01-05T19:10:45Z", 
+        "question": "Question 2"
+    }
+},
+{
+    "pk": 3, 
+    "model": "polls.poll", 
+    "fields": {
+        "pub_date": "2013-01-05T19:39:29Z", 
+        "question": "Question 3"
+    }
+},
+{
+    "pk": 4, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 6, 
+        "poll": 3, 
+        "choice": "Agree"
+    }
+},
+{
+    "pk": 5, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 9, 
+        "poll": 1, 
+        "choice": "Choice 1 to Question 1"
+    }
+},
+{
+    "pk": 6, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 5, 
+        "poll": 1, 
+        "choice": "Choice 2 to Question 1"
+    }
+},
+{
+    "pk": 7, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 3, 
+        "poll": 1, 
+        "choice": "Choice 3 to Question 1"
+    }
+},
+{
+    "pk": 8, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 1, 
+        "poll": 2, 
+        "choice": "Choice 1 to Question 2"
+    }
+},
+{
+    "pk": 9, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 3, 
+        "poll": 2, 
+        "choice": "Choice 2 to Question 2"
+    }
+},
+{
+    "pk": 10, 
+    "model": "polls.choice", 
+    "fields": {
+        "votes": 2, 
+        "poll": 3, 
+        "choice": "Disagree"
+    }
+}
+]
